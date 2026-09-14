@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ChemReport</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <div class="logo-icon">⚗</div>
+            <div>
+                <h2>ChemReport</h2>
+                <span>Chemical Management</span>
+            </div>
+        </div>
+
+        <nav class="menu">
+
+            <p class="menu-title">เมนูหลัก</p>
+
+            <a href="#" class="menu-item active">
+                <span>▦</span>
+                Dashboard
+            </a>
+
+            <a href="#" class="menu-item">
+                <span>🧪</span>
+                ข้อมูลสารเคมี
+            </a>
+
+            <a href="#" class="menu-item">
+                <span>📄</span>
+                เอกสาร SDS
+            </a>
+
+            <a href="#" class="menu-item">
+                <span>🤖</span>
+                วิเคราะห์ SDS
+            </a>
+
+            <p class="menu-title">การจัดการความปลอดภัย</p>
+
+            <a href="#" class="menu-item">
+                <span>🛡️</span>
+                Chemical Safety
+            </a>
+
+            <a href="#" class="menu-item">
+                <span>📦</span>
+                การจัดเก็บสารเคมี
+            </a>
+
+            <a href="#" class="menu-item">
+                <span>▣</span>
+                QR Code
+            </a>
+
+            <p class="menu-title">ระบบ</p>
+
+            <a href="#" class="menu-item">
+                <span>📊</span>
+                รายงานและสถิติ
+            </a>
+
+            <a href="#" class="menu-item">
+                <span>⚙️</span>
+                ตั้งค่า
+            </a>
+
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="user-avatar">SC</div>
+            <div>
+                <strong>ผู้ใช้งานระบบ</strong>
+                <small>Scientist</small>
+            </div>
+        </div>
+
+    </aside>
+
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- Top bar -->
+        <header class="topbar">
+
+            <div>
+                <h1>Dashboard</h1>
+                <p>ภาพรวมการจัดการข้อมูลสารเคมีและความปลอดภัย</p>
+            </div>
+
+            <div class="top-actions">
+
+                <div class="search-box">
+                    🔍
+                    <input
+                        type="text"
+                        placeholder="ค้นหาสารเคมี, CAS, SDS..."
+                    >
+                </div>
+
+                <button class="notification">🔔</button>
+
+                <div class="profile">
+                    <div class="profile-avatar">SC</div>
+                    <div>
+                        <strong>Scientist</strong>
+                        <small>ผู้ใช้งานระบบ</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- Welcome -->
+        <section class="welcome">
+
+            <div>
+                <span class="badge">CHEMICAL SAFETY PLATFORM</span>
+
+                <h2>
+                    ยินดีต้อนรับสู่ <strong>ChemReport</strong>
+                </h2>
+
+                <p>
+                    ระบบช่วยจัดการข้อมูลสารเคมีและเอกสาร SDS
+                    ให้ค้นหา ตรวจสอบ และนำข้อมูลไปใช้งานได้สะดวกมากขึ้น
+                </p>
+            </div>
+
+            <div class="welcome-icon">
+                ⚗
+            </div>
+
+        </section>
+
+
+        <!-- Statistics -->
+        <section class="stats">
+
+            <div class="stat-card">
+
+                <div class="stat-icon blue">🧪</div>
+
+                <div>
+                    <span>สารเคมีทั้งหมด</span>
+                    <h3>128</h3>
+                    <small>รายการในระบบ</small>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon purple">📄</div>
+
+                <div>
+                    <span>เอกสาร SDS</span>
+                    <h3>96</h3>
+                    <small>เอกสารทั้งหมด</small>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon orange">⏳</div>
+
+                <div>
+                    <span>รอตรวจสอบ</span>
+                    <h3>12</h3>
+                    <small>รายการที่ต้องดำเนินการ</small>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon red">⚠️</div>
+
+                <div>
+                    <span>ความเสี่ยงสูง</span>
+                    <h3>18</h3>
+                    <small>รายการที่ควรเฝ้าระวัง</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Content Grid -->
+        <section class="content-grid">
+
+
+            <!-- Quick Actions -->
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+                        <h3>เมนูด่วน</h3>
+                        <p>เลือกการทำงานที่ต้องการ</p>
+                    </div>
+
+                </div>
+
+
+                <div class="quick-actions">
+
+                    <button>
+                        <span>➕</span>
+                        <strong>เพิ่มสารเคมี</strong>
+                        <small>บันทึกข้อมูลสารเคมีใหม่</small>
+                    </button>
+
+                    <button>
+                        <span>📄</span>
+                        <strong>เพิ่ม SDS</strong>
+                        <small>นำเข้าเอกสารความปลอดภัย</small>
+                    </button>
+
+                    <button>
+                        <span>🤖</span>
+                        <strong>วิเคราะห์ SDS</strong>
+                        <small>ให้ AI ช่วยดึงข้อมูล</small>
+                    </button>
+
+                    <button>
+                        <span>▣</span>
+                        <strong>สร้าง QR Code</strong>
+                        <small>สร้าง QR สำหรับเข้าถึงข้อมูล</small>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- To Do -->
+            <div class="card">
+
+                <div class="card-header">
+
+                    <div>
+                        <h3>รายการที่ต้องดำเนินการ</h3>
+                        <p>ตรวจสอบข้อมูลที่สำคัญ</p>
+                    </div>
+
+                    <button class="view-all">
+                        ดูทั้งหมด
+                    </button>
+
+                </div>
+
+
+                <div class="task-list">
+
+                    <div class="task">
+                        <div class="task-icon orange">!</div>
+
+                        <div>
+                            <strong>SDS รอตรวจสอบ</strong>
+                            <small>12 รายการ</small>
+                        </div>
+
+                        <span class="arrow">›</span>
+                    </div>
+
+
+                    <div class="task">
+                        <div class="task-icon red">⚠</div>
+
+                        <div>
+                            <strong>สารเคมีความเสี่ยงสูง</strong>
+                            <small>18 รายการ</small>
+                        </div>
+
+                        <span class="arrow">›</span>
+                    </div>
+
+
+                    <div class="task">
+                        <div class="task-icon blue">✓</div>
+
+                        <div>
+                            <strong>ข้อมูลที่ต้องตรวจสอบ</strong>
+                            <small>7 รายการ</small>
+                        </div>
+
+                        <span class="arrow">›</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Recent Chemicals -->
+        <section class="card recent-card">
+
+           
